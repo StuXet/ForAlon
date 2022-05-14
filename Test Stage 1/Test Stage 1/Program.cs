@@ -11,19 +11,19 @@ namespace Test_Stage_1
         static void Main(string[] args)
         {
             //PrintReverseArray();
-            ReturnReverseArray();
+            //ReturnReverseArray();
             //ReturnReverseArraySimple();
+            Fibonacci();
         }
 
         //1.1
         public static void PrintReverseArray()
         {
             int[] inputArray = new int[10];
-            int i;
             Console.WriteLine("\n\nPlease Input 10 elements of an array that you want to print:");
             Console.WriteLine("-----------------------------------------");
 
-            for (i = 0; i < 10; i++)
+            for (int i = 0; i < 10; i++)
             {
                 Console.Write("element - {0} : ", i);
                 inputArray[i] = Convert.ToInt32(Console.ReadLine());
@@ -51,7 +51,7 @@ namespace Test_Stage_1
             for (int i = 0; i < 10; i++)
             {
                 Console.Write("element - {0} : ", i);
-                inputArray[i] = Convert.ToInt32(Console.ReadLine());
+                inputArray[i] = int.Parse(Console.ReadLine());
             }
 
             int n = inputArray.Length;
@@ -66,6 +66,9 @@ namespace Test_Stage_1
 
 
         //1.3
+        
+
+        //1.4
         public static int[] ReturnReverseArraySimple()
         {
             int[] inputArray = new int[10];
@@ -84,7 +87,25 @@ namespace Test_Stage_1
         }
         
 
-        //1.4
-        //
+        // 6
+        //Some black magic @_@
+        public static void Fibonacci()
+        {
+            int a = 0, b = 1, c = 0, len;
+
+            Console.WriteLine("Enter Range: ");
+            len = int.Parse(Console.ReadLine());
+
+            Console.Write("{0} {1}", a, b);
+            for (int i = 2; i < len; i++)
+            {
+                c = a + b;
+                Console.Write(" {0}", c);
+                a = b;
+                b = c;
+            }
+            Console.WriteLine();
+        }
+
     }
 }
