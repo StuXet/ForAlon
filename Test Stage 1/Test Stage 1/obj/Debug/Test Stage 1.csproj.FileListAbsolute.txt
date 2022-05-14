@@ -1,0 +1,7 @@
+D:\GitHub\ForAlon\Test Stage 1\Test Stage 1\bin\Debug\Test Stage 1.exe.config
+D:\GitHub\ForAlon\Test Stage 1\Test Stage 1\bin\Debug\Test Stage 1.exe
+D:\GitHub\ForAlon\Test Stage 1\Test Stage 1\bin\Debug\Test Stage 1.pdb
+D:\GitHub\ForAlon\Test Stage 1\Test Stage 1\obj\Debug\Test Stage 1.csproj.AssemblyReference.cache
+D:\GitHub\ForAlon\Test Stage 1\Test Stage 1\obj\Debug\Test Stage 1.csproj.CoreCompileInputs.cache
+D:\GitHub\ForAlon\Test Stage 1\Test Stage 1\obj\Debug\Test Stage 1.exe
+D:\GitHub\ForAlon\Test Stage 1\Test Stage 1\obj\Debug\Test Stage 1.pdb
